@@ -59,13 +59,24 @@ input {
 }
 
 .generator {
-  width: 30%;
+  width: 50%;
   background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
   position: fixed;
   top: 32%;
-  left: 34.5%;
+  left: 25%;
   padding: 1%;
+  border-radius: 1rem;
+}
+
+.mana-logos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.mana {
+  width: 50%;
 }
 
 footer {
