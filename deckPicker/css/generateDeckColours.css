@@ -1,27 +1,132 @@
 body, html {
   height: 100%;
   margin: 0;
+  box-sizing: border-box;
+  font-variant: small-caps;
 }
 
-.bg {
-  background-color: rgb(54, 60, 69);
-  background-image: url("https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
+@media only screen and (min-width: 1010px) {
+
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.8;
+  }
+  
+  input {
+    width: 40%;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 5%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.4rem;
+  }
+  
+  header {
+    width: 100%;
+    height: 10rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  input:hover {
+    background-color: rgba(52, 105, 68, 0.7);
+    cursor: pointer;
+  }
 }
 
-header {
-  width: 100%;
-  height: 10rem;
-  background-color: rgba( 0, 0, 0, 0.5);
-  margin-bottom: 1%;
-  position: fixed;
-  top: 0;
-  left: 0;
+@media only screen and (max-width: 1009px) {
+
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://lh5.googleusercontent.com/proxy/mFEYjYv4VGtI8lvXUYbcXLMvIjTp7Dmkl2RGuU3I48V7Os5-npX7-iBepeZ-t89Vw8zs-jvcEQlKCS7vqExnPKaFhpVW0bAdHajvmjTYB-2i7bO6X8QM2FshYe_UQsh1E3zP5tkFulw-");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.7;
+  }
+  
+  input {
+    width: 40%;
+    height: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 5%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.4rem;
+  }
+  
+  header {
+    width: 100%;
+    height: 7.5rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  input:hover {
+    background-color: rgba(158, 6, 14, 0.7);
+    cursor: pointer;
+  }
 }
 
+@media only screen and (max-width: 512px) {
+  
+  header {
+    width: 100%;
+    height: 10rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 1883px) {
+  
+  header {
+    width: 100%;
+    height: 15rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .div1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    margin: 2%;
+  }
+
+  .div2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+}
 
 .div1 {
   color: rgb(255, 255, 255);
@@ -38,18 +143,12 @@ header {
   letter-spacing: 0.08rem;
 }
 
-input {
-  color: rgb(54, 60, 69);
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  margin: 5%;
-  border-radius: 5%;
-  border-style: inset;
-}
 
 .div3 {
   color: rgb(255, 255, 255);
   text-align: center;
+  font-size: 2rem;
+  padding: 3%;
 }
 
 .div4 {
@@ -64,7 +163,8 @@ input {
   text-align: center;
   position: fixed;
   top: 32%;
-  left: 25%;
+  left: 24.005%;
+  margin: auto;
   padding: 1%;
   border-radius: 1rem;
 }
