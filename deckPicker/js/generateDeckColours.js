@@ -2,41 +2,119 @@ function generateDeckColours() {
  let randomNumber = Math.floor(Math.random() * 15);
   switch (randomNumber) {
     case 0:
-      return 'Build a Black Deck';
+      return 'Black';
     case 1:
-      return 'Build a Red Deck';
+      return 'Red';
     case 2:
-      return 'Build a Green Deck';
+      return 'Green';
     case 3:
-      return 'Build a Blue Deck';
+      return 'Blue';
     case 4:
-      return 'Build a Black & Red Deck';
+      return 'Black & Red';
     case 5:
-      return 'Build a Black & Green Deck';
+      return 'Black & Green';
     case 6:
-      return 'Build a Black & Blue Deck';
+      return 'Black & Blue';
     case 7:
-      return 'Build a Red & Green Deck';
+      return 'Red & Green';
     case 8:
-      return 'Build a Red & Blue Deck';
+      return 'Red & Blue';
     case 9:
-      return 'Build a Green & Blue Deck';
+      return 'Green & Blue';
     case 10:
-      return 'Build a White Deck';
+      return 'White';
     case 11:
-      return 'Build a White & Black Deck';
+      return 'White & Black';
     case 12:
-      return 'Build a White & Red Deck';
+      return 'White & Red';
     case 13:
-      return 'Build a White & Green Deck';
+      return 'White & Green';
     case 14:
-      return 'Build a White & Blue Deck';
+      return 'White & Blue';
     default:
       return 'Please try again.';
   }
 }
 
+function getManaLogos(deckColour) {
+  switch (deckColour){
+    case 'Black':
+      return './img/black.png';
+    case 'Red':
+      return './img/red.png';
+    case 'Green':
+      return './img/green.png';
+    case 'Blue':
+      return './img/blue.png';
+    case 'Black & Red':
+      return './img/black.png';
+    case 'Black & Green':
+      return './img/black.png';
+    case 'Black & Blue':
+      return './img/black.png';
+    case 'Red & Green':
+      return './img/red.png';
+    case 'Red & Blue':
+      return './img/red.png';
+    case 'Green & Blue':
+      return './img/green.png';
+    case 'White':
+      return './img/white.png';
+    case 'White & Black':
+      return './img/white.png';
+    case 'White & Red':
+      return './img/white.png';
+    case 'White & Green':
+      return './img/white.png';
+    case 'White & Blue':
+      return './img/white.png';
+    default:
+      return 'No image available';
+  }
+}
+  
+  function getManaLogos2(deckColour) {
+  switch (deckColour){
+    case 'Black':
+      return '';
+    case 'Red':
+      return '';
+    case 'Green':
+      return '';
+    case 'Blue':
+      return '';
+    case 'Black & Red':
+      return './img/red.png';
+    case 'Black & Green':
+      return './img/green.png';
+    case 'Black & Blue':
+      return './img/blue.png';
+    case 'Red & Green':
+      return './img/green.png';
+    case 'Red & Blue':
+      return './img/blue.png';
+    case 'Green & Blue':
+      return './img/blue.png';
+    case 'White':
+      return '';
+    case 'White & Black':
+      return './img/black.png';
+    case 'White & Red':
+      return './img/red.png';
+    case 'White & Green':
+      return './img/green.png';
+    case 'White & Blue':
+      return './img/blue.png';
+    default:
+      return 'No image available';
+  }
+}
+
 function generate() {
   const chosenDeckColours = generateDeckColours();
-  document.getElementById("deck").innerHTML = chosenDeckColours;
+  const manaLogos = getManaLogos(chosenDeckColours);
+  const manaLogos2 = getManaLogos2(chosenDeckColours);
+  document.getElementById("deck").innerHTML = `Build a ${chosenDeckColours} Deck`;
+  document.getElementById("logo").src = manaLogos;
+  document.getElementById("logo2").src = manaLogos2;
 }

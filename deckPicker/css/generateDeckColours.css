@@ -168,6 +168,54 @@ body, html {
   }
 }
 
+@media only screen and (max-height: 450px) {
+  
+  footer {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 7rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .div1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.5rem;
+    letter-spacing: 0.2rem;
+    margin: 2%;
+  }
+
+  .div2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.3rem;
+    letter-spacing: 0.08rem;
+  }
+  
+  .mana-logos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mana {
+    width: 10%;
+  }
+
+}
+
 .div1 {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -188,7 +236,7 @@ body, html {
   color: rgb(255, 255, 255);
   text-align: center;
   font-size: 2rem;
-  padding: 3%;
+  padding: 1%;
 }
 
 .div4 {
@@ -205,6 +253,10 @@ body, html {
 
 .mana {
   width: 50%;
+}
+
+.chosen-logos {
+  width: 10%;
 }
 
 footer {
