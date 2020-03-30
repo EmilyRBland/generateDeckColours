@@ -1,9 +1,62 @@
-body, html {
+html {
   height: 100%;
-  margin: 0;
   box-sizing: border-box;
   font-size: 100%;
   font-variant: small-caps;
+}
+
+body{
+  min-height:100%;
+  padding:0;
+  margin:0;
+  position:relative;
+  
+}
+
+
+
+
+@media only screen and (min-width: 1883px) {
+  
+  header {
+    width: 100%;
+    height: 15rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: 0;
+  }
+  
+  .div1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    margin: 2%;
+  }
+
+  .div2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+
+  .chosen-logos {
+    width: 10%;
+  }
+
 }
 
 @media only screen and (min-width: 1010px) {
@@ -15,7 +68,6 @@ body, html {
     background-position: center;
     background-size: cover;
     height: 100%;
-    opacity: 0.8;
   }
   
   input {
@@ -36,7 +88,9 @@ body, html {
     height: 10rem;
     background-color: rgba( 0, 0, 0, 0.5);
     margin-bottom: 1%;
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: 0;
     left: 0;
   }
@@ -50,7 +104,7 @@ body, html {
     width: 50%;
     background-color: rgba(255, 255, 255, 0.3);
     text-align: center;
-    position: fixed;
+    
     top: 32%;
     left: 0;
     right: 0;
@@ -58,6 +112,19 @@ body, html {
     padding: 1%;
     border-radius: 1rem;
   }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+  
+  .chosen-logos {
+    width: 10%;
+  }
+
 }
 
 @media only screen and (max-width: 1009px) {
@@ -78,11 +145,19 @@ body, html {
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    margin: 5%;
+    margin: 3%;
     font-size: 1rem;
     border-radius: 0.5rem;
     border-style: inset;
     letter-spacing: 0.4rem;
+  }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
   }
   
   header {
@@ -90,7 +165,9 @@ body, html {
     height: 7.5rem;
     background-color: rgba( 0, 0, 0, 0.5);
     margin-bottom: 1%;
-    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: 0;
     left: 0;
   }
@@ -102,15 +179,18 @@ body, html {
   
   .generator {
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
-    position: fixed;
     top: 32%;
     left: 0;
     right: 0;
     margin: auto;
     padding: 1%;
     border-radius: 1rem;
+  }
+  
+  .chosen-logos {
+    width: 5%;
   }
 }
 
@@ -121,16 +201,15 @@ body, html {
     height: 10rem;
     background-color: rgba( 0, 0, 0, 0.5);
     margin-bottom: 1%;
-    position: fixed;
+    
     top: 0;
     left: 0;
   }
   
   .generator {
     width: 90%;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
-    position: fixed;
     top: 32%;
     left: 0;
     right: 0;
@@ -138,83 +217,21 @@ body, html {
     padding: 1%;
     border-radius: 1rem;
   }
-}
-
-@media only screen and (min-width: 1883px) {
   
-  header {
-    width: 100%;
-    height: 15rem;
-    background-color: rgba( 0, 0, 0, 0.5);
-    margin-bottom: 1%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  
-  .div1 {
+  .div3 {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 4rem;
-    letter-spacing: 0.4rem;
-    margin: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1%;
   }
 
-  .div2 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
+  .chosen-logos {
+   width: 10%;
   }
 }
 
-@media only screen and (max-height: 450px) {
-  
-  footer {
-    width: 100%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-  }
-  
-  header {
-    width: 100%;
-    height: 7rem;
-    background-color: rgba( 0, 0, 0, 0.5);
-    margin-bottom: 1%;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-  
-  .div1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 0.5rem;
-    letter-spacing: 0.2rem;
-    margin: 2%;
-  }
 
-  .div2 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 0.3rem;
-    letter-spacing: 0.08rem;
-  }
-  
-  .mana-logos {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .mana {
-    width: 10%;
-  }
-
-}
 
 .div1 {
   color: rgb(255, 255, 255);
@@ -232,18 +249,12 @@ body, html {
 }
 
 
-.div3 {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 2rem;
-  padding: 1%;
-}
-
 .div4 {
   color: rgb(255, 255, 255);
   text-align: center;
-  margin: 2%;
+  padding: 2%;
 }
+
 
 .mana-logos {
   width: 100%;
@@ -255,15 +266,14 @@ body, html {
   width: 50%;
 }
 
-.chosen-logos {
-  width: 10%;
-}
 
 footer {
   width: 100%;
-  height: 5rem;
+  height: 10%;
   background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
   bottom: 0;
-  left: 0;
 }
