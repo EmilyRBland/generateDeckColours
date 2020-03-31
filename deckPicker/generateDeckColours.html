@@ -7,27 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body class="bg">
-    <header>
-      <div class="div1">Magic: The Gathering</div>
-      <div class="div2">Deck Colour Generator</div>
-    </header>
-    <main>
-      <div class="generator">
+    <div class="page">
+      <header>
+        <div class="div1">Magic: The Gathering</div>
+        <div class="div2">Deck Colour Generator</div>
+      </header>
+      <main>
         <div class="mana-logos">
-          <div><img class="mana" src="img/blue.png" alt="blue mana logo"></div>
-          <div><img class="mana" src="img/red.png" alt="red mana logo"></div>
-          <div><img class="mana" src="img/white.png" alt="white mana logo"></div>
-          <div><img class="mana" src="img/black.png" alt="black mana logo"></div>
-          <div><img class="mana" src="img/green.png" alt="green mana logo"></div>
+          <div class="mana"><img src="img/blue.png" alt="blue mana logo"></div>
+          <div class="mana"><img src="img/red.png" alt="red mana logo"></div>
+          <div class="mana"><img src="img/white.png" alt="white mana logo"></div>
+          <div class="mana"><img src="img/black.png" alt="black mana logo"></div>
+          <div class="mana"><img src="img/green.png" alt="green mana logo"></div>
         </div>
-        <input type="button" onclick="generate()" value="Generate">
-        <div class="div3" id="deck"></div>
-        <img class="chosen-logos" id="logo">
-        <img class="chosen-logos" id="logo2">
-      </div>
-    </main>
-    <footer>
-      <div class="div4">EmilyRBland 2020</div>
-    </footer>
+        <div class="generator">
+          <input type="button" onclick="generate()" value="Generate">
+          <div class="div3" id="deck"></div>
+          <img class="chosen-logos" id="logo">
+          <img class="chosen-logos" id="logo2">
+        </div>
+      </main>
+      <footer>
+        <div class="div4">EmilyRBland 2020</div>
+      </footer>
+    </div>
   </body>
 </html>

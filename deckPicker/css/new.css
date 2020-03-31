@@ -1,0 +1,274 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-variant: small-caps;
+}
+
+body {
+  min-height:100%;
+  padding:0;
+  margin:0;
+  position:relative;
+}
+
+@media only screen and (min-width: 1883px) {
+  
+  header {
+    width: 100%;
+    height: 15rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: 0;
+  }
+  
+  .div1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    margin: 2%;
+  }
+
+  .div2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+
+  .chosen-logos {
+    width: 10%;
+  }
+}
+
+@media only screen and (min-width: 1010px) {
+
+  header {
+    width: 100%;
+    height: 10rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: 0;
+  }
+  
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .generator {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    top: 32%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1%;
+  }
+  
+  input {
+    width: 40%;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 5%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.2rem;
+  }
+  
+  input:hover {
+    background-color: rgba(52, 105, 68, 0.7);
+    cursor: pointer;
+  }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+  
+  .chosen-logos {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 1009px) {
+
+  header {
+    width: 100%;
+    height: 7.5rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0;
+    left: 0;
+  }
+  
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://lh5.googleusercontent.com/proxy/mFEYjYv4VGtI8lvXUYbcXLMvIjTp7Dmkl2RGuU3I48V7Os5-npX7-iBepeZ-t89Vw8zs-jvcEQlKCS7vqExnPKaFhpVW0bAdHajvmjTYB-2i7bO6X8QM2FshYe_UQsh1E3zP5tkFulw-");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.7;
+  }
+  
+  .generator {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    top: 32%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1%;
+    border-radius: 1rem;
+  }
+  
+  input {
+    width: 40%;
+    height: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 3%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.2rem;
+  }
+  
+  input:hover {
+    background-color: rgba(158, 6, 14, 0.7);
+    cursor: pointer;
+  }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+  
+  .chosen-logos {
+    width: 5%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  
+  header {
+    width: 100%;
+    height: 10rem;
+    background-color: rgba( 0, 0, 0, 0.5);
+    margin-bottom: 1%;
+    top: 0;
+    left: 0;
+  }
+  
+  .generator {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    top: 32%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1%;
+    border-radius: 1rem;
+  }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+
+  .chosen-logos {
+    width: 10%;
+  }
+}
+
+.div1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 4vmax;
+  letter-spacing: 0.2rem;
+  margin: 2%;
+}
+
+.div2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2vmax;
+  letter-spacing: 0.08rem;
+  padding-bottom: 1%;
+}
+
+.div4 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 2%;
+}
+
+.mana-logos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.mana {
+  width: 5%;
+  margin: 0.5% 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.mana img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
