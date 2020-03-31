@@ -5,16 +5,12 @@ html {
   font-variant: small-caps;
 }
 
-body{
+body {
   min-height:100%;
   padding:0;
   margin:0;
   position:relative;
-  
 }
-
-
-
 
 @media only screen and (min-width: 1883px) {
   
@@ -56,33 +52,10 @@ body{
   .chosen-logos {
     width: 10%;
   }
-
 }
 
 @media only screen and (min-width: 1010px) {
 
-  .bg {
-    background-color: rgb(54, 60, 69);
-    background-image: url("https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-  }
-  
-  input {
-    width: 40%;
-    height: 3rem;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin: 5%;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    border-style: inset;
-    letter-spacing: 0.4rem;
-  }
-  
   header {
     width: 100%;
     height: 10rem;
@@ -95,22 +68,43 @@ body{
     left: 0;
   }
   
-  input:hover {
-    background-color: rgba(52, 105, 68, 0.7);
-    cursor: pointer;
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
   }
   
   .generator {
     width: 50%;
     background-color: rgba(255, 255, 255, 0.3);
     text-align: center;
-    
     top: 32%;
     left: 0;
     right: 0;
     margin: auto;
     padding: 1%;
     border-radius: 1rem;
+  }
+  
+  input {
+    width: 40%;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 5%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.2rem;
+  }
+  
+  input:hover {
+    background-color: rgba(52, 105, 68, 0.7);
+    cursor: pointer;
   }
   
   .div3 {
@@ -124,42 +118,10 @@ body{
   .chosen-logos {
     width: 10%;
   }
-
 }
 
 @media only screen and (max-width: 1009px) {
 
-  .bg {
-    background-color: rgb(54, 60, 69);
-    background-image: url("https://lh5.googleusercontent.com/proxy/mFEYjYv4VGtI8lvXUYbcXLMvIjTp7Dmkl2RGuU3I48V7Os5-npX7-iBepeZ-t89Vw8zs-jvcEQlKCS7vqExnPKaFhpVW0bAdHajvmjTYB-2i7bO6X8QM2FshYe_UQsh1E3zP5tkFulw-");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    opacity: 0.7;
-  }
-  
-  input {
-    width: 40%;
-    height: 2rem;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin: 3%;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    border-style: inset;
-    letter-spacing: 0.4rem;
-  }
-  
-  .div3 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 1%;
-  }
-  
   header {
     width: 100%;
     height: 7.5rem;
@@ -172,9 +134,14 @@ body{
     left: 0;
   }
   
-  input:hover {
-    background-color: rgba(158, 6, 14, 0.7);
-    cursor: pointer;
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://lh5.googleusercontent.com/proxy/mFEYjYv4VGtI8lvXUYbcXLMvIjTp7Dmkl2RGuU3I48V7Os5-npX7-iBepeZ-t89Vw8zs-jvcEQlKCS7vqExnPKaFhpVW0bAdHajvmjTYB-2i7bO6X8QM2FshYe_UQsh1E3zP5tkFulw-");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.7;
   }
   
   .generator {
@@ -189,6 +156,32 @@ body{
     border-radius: 1rem;
   }
   
+  input {
+    width: 40%;
+    height: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 3%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.2rem;
+  }
+  
+  input:hover {
+    background-color: rgba(158, 6, 14, 0.7);
+    cursor: pointer;
+  }
+  
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
+  }
+  
   .chosen-logos {
     width: 5%;
   }
@@ -201,7 +194,6 @@ body{
     height: 10rem;
     background-color: rgba( 0, 0, 0, 0.5);
     margin-bottom: 1%;
-    
     top: 0;
     left: 0;
   }
@@ -227,11 +219,9 @@ body{
   }
 
   .chosen-logos {
-   width: 10%;
+    width: 10%;
   }
 }
-
-
 
 .div1 {
   color: rgb(255, 255, 255);
@@ -248,13 +238,11 @@ body{
   letter-spacing: 0.08rem;
 }
 
-
 .div4 {
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 2%;
 }
-
 
 .mana-logos {
   width: 100%;
@@ -265,7 +253,6 @@ body{
 .mana {
   width: 50%;
 }
-
 
 footer {
   width: 100%;
