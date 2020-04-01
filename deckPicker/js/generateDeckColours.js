@@ -117,6 +117,7 @@ function generate() {
   document.getElementById("deck").innerHTML = `Build a ${chosenDeckColours} Deck`;
   document.getElementById("logo").src = manaLogos;
   document.getElementById("logo2").src = manaLogos2;
+  document.getElementById("build").innerHTML = 'Get Building!'
   const secondLogo = document.getElementById("logo2");
   if (manaLogos2 === '') {
     secondLogo.style.display = 'none';

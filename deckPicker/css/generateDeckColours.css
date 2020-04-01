@@ -16,7 +16,7 @@ html, body {
 
 header {
     width: 100%;
-    height: 10rem;
+    height: 30%;
     background-color: rgba( 0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
@@ -46,13 +46,13 @@ header {
   }
   
   input {
-    width: 20%;
-    height: 4vmax;
+    width: 40%;
+    height: 6vmax;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin-top: 4%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     font-size: 2vmax;
     font-variant: small-caps;
     border-radius: 0.5rem;
@@ -71,11 +71,12 @@ header {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    padding: 1%;
+    padding: 2%;
   }
   
   .chosen-logos {
-    width: 10%;
+    width: 12%;
+    margin: 2%;
   }
   
 .div1 {
@@ -105,13 +106,13 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 3%;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .mana {
-  width: 8%;
+  width: 100%;
   margin: 0.5% 5%;
-  display: flex;
   justify-content: center;
 }
 
@@ -124,5 +125,4 @@ footer {
   width: 100%;
   height: 10%;
   background-color: rgba(0, 0, 0, 0.5);
-  
 }
