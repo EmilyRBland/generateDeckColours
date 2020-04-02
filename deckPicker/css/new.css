@@ -12,22 +12,15 @@ html, body {
   width:100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .generator {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
-  top: 32%;
-  left: 0;
-  right: 0;
-  margin: auto;
   padding: 1% 1% 20% 1%;
-}
-
-img {
-  width: 100%;
-  filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
 }
 
 .div4 {
@@ -36,13 +29,7 @@ img {
   padding: 5%;
 }
 
-footer {
-  width: 100%;
-  height: 10vmax;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .bg {
     background-color: rgb(54, 60, 69);
     background-image: url("https://images.hdqwalls.com/download/magic-the-gathering-4k-lx-1920x1200.jpg");
@@ -52,7 +39,6 @@ footer {
     height: 100%;
   }
 
-  /* https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg */
   header {
     width: 100%;
     height: 20vmax;
@@ -61,8 +47,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     padding: 2%;
-    top: 0;
-    left: 0;
   }
 
   .div1 {
@@ -89,6 +73,10 @@ footer {
     padding-top: 7%;
     padding-bottom: 10%;
     background-color: rgba(255, 255, 255, 0.3);
+  }
+  img {
+    width: 85%;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
   }
 
   input {
@@ -125,4 +113,196 @@ footer {
     width: 15%;
     margin: 2%;
   }  
+
+  footer {
+    width: 100%;
+    height: 12vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1299px){
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: cover;
+    height: 100%;
+  }
+
+  header {
+    width: 100%;
+    height: 10vmax;
+    background-color: rgba( 0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  .div1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5vmax;
+    letter-spacing: 0.2rem;
+    margin: 2%;
+  }
+  
+  .div2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2vmax;
+    letter-spacing: 0.08rem;
+    padding-bottom: 1%;
+  }
+
+  .mana-logos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  img {
+    width: 50%;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+  }
+
+  input {
+    width: 50%;
+    height: 7vmax;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 3vmax;
+    font-variant: small-caps;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.2rem;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.7)
+  }
+
+  input:hover {
+    background-color: rgba(22, 78, 36, 0.7);
+    cursor: pointer;
+  }
+
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4vmax;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 2%;
+  }
+
+  .chosen-logos {
+    width: 15%;
+    margin: 2%;
+  }  
+
+  footer {
+    width: 100%;
+    height: 15vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .bg {
+    background-color: rgb(54, 60, 69);
+    background-image: url("https://www.elsetge.cat/myimg/f/12-121601_wallpaper-magic-the-gathering-chandra-art.jpg");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: cover;
+    height: 100%;
+  }
+
+  header {
+    width: 100%;
+    height: 10vmax;
+    background-color: rgba( 0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+  }
+
+  .div1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 5vmax;
+    letter-spacing: 0.2rem;
+    margin: 2%;
+  }
+  
+  .div2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2vmax;
+    letter-spacing: 0.08rem;
+    padding-bottom: 1%;
+  }
+
+  .mana-logos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  img {
+    width: 50%;
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+  }
+
+  input {
+    width: 40%;
+    height: 7vmax;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 4vmax;
+    font-variant: small-caps;
+    border-radius: 0.5rem;
+    border-style: inset;
+    letter-spacing: 0.2rem;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.7)
+  }
+
+  input:hover {
+    background-color: rgba(22, 78, 36, 0.7);
+    cursor: pointer;
+  }
+
+  .div3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 4vmax;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 2%;
+  }
+
+  .chosen-logos {
+    width: 15%;
+    margin: 1%;
+  }  
+
+  footer {
+    width: 100%;
+    height: 13vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
